@@ -2,14 +2,21 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"strings"
-	"io/ioutil"
+	"time"
 )
 
 var S strings.Builder
 
 func Send(w http.ResponseWriter, r *http.Request) {
+	t1 := time.Now()
+
+	time.Sleep(time.Second)
+
+	t2 := time.Now()
+
 	fmt.Println("Recebendo json")
 
 	b, err := ioutil.ReadAll(r.Body)
@@ -19,9 +26,15 @@ func Send(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusBadRequest)
 
 		jsonError := `{"status":"error", "msg":"` + err.Error() + `"}`
-		w.Write([]byte(`{"status":"error"}`))
+		w.Write([]byte(jsonError))
 		return
 	}
+
+	fmt.Println(string(b))
+
+	diff := t2.Sub(t1)
+
+	fmt.Println("Diff", diff)
 
 	w.WriteHeader(http.StatusBadRequest)
 	w.Write([]byte("Error permitido somente POST...\n"))
@@ -40,20 +53,8 @@ func Ping(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	Ping2 := func(w http.ResponseWriter, r *http.Request) {
-		w.WriteHeader(http.StatusOK)
-		json := `{"status": "ok", "msg":"sucesso"}`
-		json += "\n"
-
-		w.Header().Set("Content-Type", "application/json")
-		w.Write([]byte(json))
-	}
-
 	http.HandleFunc("/api/v1/ping", Ping)
-	http.Handle("/api/v1/ping2", http.HandlerFunc(Ping2))
-
-	http.HandleFunc("/api/v1/ping3", Ping)
-	http.HandleFunc("/api/v1/ping4", Ping)
+	http.HandleFunc("/api/v1/send", Send)
 
 	fmt.Println("Run server: 8085")
 	http.ListenAndServe(":8085", nil)
