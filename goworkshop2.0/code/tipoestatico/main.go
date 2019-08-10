@@ -14,6 +14,7 @@ func main() {
 
 	const nome string = "@jeffotoni"
 
+	var p Produto
 	var vars MyString
 	var t string
 	var a int
@@ -21,9 +22,13 @@ func main() {
 	vars = MyString(nome)
 	t = "ola"
 	a = 100
+	p.Id = 1000
+	p.Nome = "TV LG"
+	p.Preco = 2500.00
 
 	fmt.Println(t)
 	fmt.Println(a)
 	fmt.Println(nome)
 	fmt.Println(vars)
+	fmt.Println(p)
 }
