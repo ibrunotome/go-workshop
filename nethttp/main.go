@@ -6,6 +6,8 @@ import (
 	"net/http"
 	"strings"
 	"time"
+
+	mw "pkg/middleware"
 )
 
 var S strings.Builder
@@ -53,8 +55,8 @@ func Ping(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/api/v1/ping", Ping)
-	http.HandleFunc("/api/v1/send", Send)
+	http.Handle("/api/v1/ping", mw.Use(http.HandlerFunc(Ping), mw.Logger("/api/v1/ping")))
+	http.Handle("/api/v1/send", mw.Use(http.HandlerFunc(Send), mw.Logger("/api/v1/send")))
 
 	fmt.Println("Run server: 8085")
 	http.ListenAndServe(":8085", nil)
