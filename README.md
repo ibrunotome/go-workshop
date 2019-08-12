@@ -17,50 +17,50 @@ Vamos abusar do XP (eXtreme Programming) e quebrar a BANCA.
 
 ## Objetivo:
 
-Vamos desenvolver do zero uma API usando uma das linguagens mais fascinantes na atualidade;
-Entender de forma granular as etapas que envolve o desenvolvimento de uma API REST;
-Entender o ambiente e universo Go e desmistificar a linguagem;
-O Workshop é 100% prático, mão na massa;
-Iremos abordar os problemas e desenvolver a solução usando Go;
-Iremos usar Docker para criar nossas imagens e subir nossos containers de nossas APIs;
-Vamos abordar os partners de concorrência para resolver nossos problemas de forma concorrente;
-Vamos criar APIs para alto desempenho e alta escalabilidade;
-Vamos utilizar RabbitQm como gerenciador de Fila para fazermos nossos consumer e publisher em Go;
-Vamos criar nossos middlewares nativos;
-Aprender as melhores práticas e o jeito Go de fazer as coisas.
-Vamos abusar do XP (eXtreme Programming) 
+- Vamos desenvolver do zero uma API usando uma das linguagens mais fascinantes na atualidade;
+- Entender de forma granular as etapas que envolve o desenvolvimento de uma API REST;
+- Entender o ambiente e universo Go e desmistificar a linguagem;
+- O Workshop é 100% prático, mão na massa;
+- Iremos abordar os problemas e desenvolver a solução usando Go;
+- Iremos usar Docker para criar nossas imagens e subir nossos containers de nossas APIs;
+- Vamos abordar os partners de concorrência para resolver nossos problemas de forma concorrente;
+- Vamos criar APIs para alto desempenho e alta escalabilidade;
+- Vamos utilizar RabbitQm como gerenciador de Fila para fazermos nossos consumer e publisher em Go;
+- Vamos criar nossos middlewares nativos;
+- Aprender as melhores práticas e o jeito Go de fazer as coisas.
+- Vamos abusar do XP (eXtreme Programming) 
 
 
 ## Público Alvo:
 
-Estudantes de tecnologia;
-Desenvolvedores;
-Desenvolvedores interessados em migrar para Go;
-Desenvolvedores que desejam obter experiência 100% prática quando o assunto é Go;
-Desenvolvedores em geral que desejam aprofundar seus conhecimentos em Go;
-Entusiastas de DevOps;
-Para empreendedores que querem criar um produto digital e entender atrás das cortinas como isto é possível;
-Profissionais que querem criar um MVP (o produto mínimo viável), conhecer os bastidores de como uma equipe de desenvolvimento trabalha;
-Entusiastas em geral que gostam de conhecer novas tecnologias e novas linguagens de programação.
+- Estudantes de tecnologia;
+- Desenvolvedores;
+- Desenvolvedores interessados em migrar para Go;
+- Desenvolvedores que desejam obter experiência 100% prática quando o assunto é Go;
+- Desenvolvedores em geral que desejam aprofundar seus conhecimentos em Go;
+- Entusiastas de DevOps;
+- Para empreendedores que querem criar um produto digital e entender atrás das cortinas como isto é possível;
+- Profissionais que querem criar um MVP (o produto mínimo viável), conhecer os bastidores de como uma equipe de desenvolvimento trabalha;
+- Entusiastas em geral que gostam de conhecer novas tecnologias e novas linguagens de programação.
 
 ## Pré-requisito:
 
-Notebook;
-Conhecimentos básicos em sistemas operacionais Linux;
-Conhecimentos básicos em qualquer linguagem de programação;
-Conhecimentos básicos de programação;
-Linux instalado;
-Git Instalado;
-Docker instalado;
-Editores mais usados [Vim-Go, Sublime, Vscode]. 
+- Notebook;
+- Conhecimentos básicos em sistemas operacionais Linux;
+- Conhecimentos básicos em qualquer linguagem de programação;
+- Conhecimentos básicos de programação;
+- Linux instalado;
+- Git Instalado;
+- Docker instalado;
+- Editores mais usados [Vim-Go, Sublime, Vscode]. 
 
 ## Método Usado:
 
-Treinamento presencial e 100% em português, com instrutor especialista em Go;
-Laboratórios práticos e autoguiados (hands-on, o próprio aluno deverá aplicar os conceitos e fazer os labs em sala);
-Curso com duração de 1 dia, sendo 8 horas de aula;
-O aluno receberá descontos exclusivos para os próximos treinamentos;
-Todo o material em Português.
+- Treinamento presencial e 100% em português, com instrutor especialista em Go;
+- Laboratórios práticos e autoguiados (hands-on, o próprio aluno deverá aplicar os conceitos e fazer os labs em sala);
+- Curso com duração de 1 dia, sendo 8 horas de aula;
+- O aluno receberá descontos exclusivos para os próximos treinamentos;
+- Todo o material em Português.
 
 
 <img width="100%" alt="Screen Shot 2019-08-10 at 08 40 11" src="https://user-images.githubusercontent.com/4256471/62821393-84b5ed00-bb4a-11e9-92f8-988d02ff0227.png">
