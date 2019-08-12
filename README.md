@@ -1,5 +1,7 @@
 ![5d1e3ef34951a-lg-2](https://user-images.githubusercontent.com/4256471/62821357-e033ab00-bb49-11e9-963e-80b760782cd5.png)
 
+Ministrado por http://github.com/jeffotoni
+
 Neste curso, iremos ter o privilégio de conhecer uma das linguagens que mais cresce no mundo: Go!
 
 Cada vez mais vemos depoimentos de diversas empresas na migração de seus sistemas para linguagem Go, cada dia cresce o número de adeptos que utilização esta linguagem que vem tornando-se um fenômeno quando o assunto é resolver problemas de backend.
